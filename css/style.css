@@ -1,0 +1,121 @@
+:root {
+  --black-color: #212121;
+  --white-color: #ffffff;
+  --blue-color: #7a9deb;
+  --grey-color: #757575;
+  --dark-color: #2f303a;
+  --background-color: #e5e5e5;
+}
+
+header {
+  background-color: var(--white-color);
+}
+.navigation .link {
+  color: var(--black-color);
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.link:hover,
+.link:focus,
+.link-address:hover,
+.link-address:focus {
+  color: var(--blue-color);
+}
+
+.link-address {
+  color: var(--grey-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.banner {
+  background-color: var(--dark-color);
+  width: 1600px;
+  height: 600px;
+}
+
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--white-color);
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  height: 30px;
+  left: 732px;
+  top: 440px;
+
+  font-size: 5 px;
+
+  color: var(--white-color);
+  background-color: var(--blue-color);
+}
+
+.button-portfolio {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+
+.about-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+}
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  color: var(--black-color);
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+p {
+  color: var(--grey-color);
+  font-size: 14px;
+}
+.team-section {
+  background-color: var(--background-color);
+}
+
+footer {
+  background-color: var(--dark-color);
+  width: 1600px;
+  height: 250px;
+}
+.footer-address {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 24px;
+}
