@@ -15,6 +15,11 @@ header {
   font-size: 14px;
   line-height: 16px;
   font-weight: 700;
+  text-decoration: none;
+}
+
+.link.current {
+  color: var(--blue-color);
 }
 
 .link:hover,
@@ -29,6 +34,8 @@ header {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  text-decoration: none;
+  font-style: normal;
 }
 
 .banner {
@@ -51,7 +58,7 @@ header {
   left: 732px;
   top: 440px;
 
-  font-size: 5 px;
+  font-size: 16px;
 
   color: var(--white-color);
   background-color: var(--blue-color);
@@ -94,6 +101,10 @@ header {
   line-height: 36px;
   color: var(--black-color);
 }
+.portfolio-link {
+  text-decoration: none;
+}
+
 body {
   font-family: Roboto, sans-serif;
 }
@@ -118,4 +129,6 @@ footer {
   color: var(--white-color);
   font-size: 14px;
   line-height: 24px;
+  text-decoration: none;
+  font-style: normal;
 }
